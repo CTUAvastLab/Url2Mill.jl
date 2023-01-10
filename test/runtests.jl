@@ -1,5 +1,6 @@
-using Mill, Url2Mill, HTTP,
+using Mill, Url2Mill, HTTP
 using Test
+using SparseArrays
 @testset "parsing to string" begin 
 	domain = ["st","360buyimg","com"]
 	path = ["m","css","2014","index","home_2017_5_9.css"]
