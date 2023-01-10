@@ -2,7 +2,7 @@
 An extension of Mill.jl to convert URLs to Mill structure
 
 
-A simple library implementing representation of URLs from the paper ![Nested Multiple Instance Learning in Modelling of HTTP network traffic, Tomas Pevny, Marek Dedic, 2020](https://arxiv.org/abs/2002.04059)
+A simple library implementing representation of URLs from the paper [Nested Multiple Instance Learning in Modelling of HTTP network traffic, Tomas Pevny, Marek Dedic, 2020](https://arxiv.org/abs/2002.04059)
 
 Example:
 ```julia
