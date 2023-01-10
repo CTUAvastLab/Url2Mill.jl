@@ -1,0 +1,9 @@
+name = "Url2Mill"
+uuid = "af211eae-4ed5-40db-9121-dc364f2df807"
+authors = ["pevnak <pevnak@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Mill = "1d0525e4-8992-11e8-313c-e310e1f6ddea"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
