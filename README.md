@@ -20,8 +20,8 @@ ProductNode  # 1 obs, 152 bytes
                         ╰── value: ArrayNode(2053×1 NGramMatrix with Int64 elements)  # 1 o ⋯
 
 ```
-If you want to represent strings by ngrams directly as `SparseArrays`, use `se_sparse_arrays = true`
-```
+If you want to represent strings by ngrams directly as `SparseArrays`, use `use_sparse_arrays = true`
+```julia
 julia> ds = url2mill("st.360buyimg.com/m/css/2014/index/home_2017_5_9.css?v=jd201705182030";use_sparse_arrays = true)
 ProductNode  # 1 obs, 184 bytes
   ├── hostname: BagNode  # 1 obs, 112 bytes
